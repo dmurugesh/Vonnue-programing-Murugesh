@@ -8,5 +8,5 @@ const findSum = num => {
     }
     return result;
 }
-findSum(n)
-console.log('The sum of N elements :' + findSum(n))
+findSum(n);
+console.log('The sum of N elements :' + findSum(n));
