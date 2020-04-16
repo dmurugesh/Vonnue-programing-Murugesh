@@ -1,3 +1,4 @@
+// Question 6 => Find the sum of elements in a given array. Array should be an input to the program?
 let readline = require("readline-sync");
 var inputArray = [];
 
@@ -8,13 +9,14 @@ const enterArrayElements = array => {
     }
     console.log(inputArray);
 }
-enterArrayElements(inputArray);                          // print to see the entered array
+
 
 const summofArray = array => {
-    let total = 0;                                              //function declared to find sum of array
+    let total = 0;                                             
     for (i = 0; i < inputArray.length; i++) {
         total = parseInt(total) + parseInt(inputArray[i]);
     }
     console.log(' Sum of Array :' + total);
 }
-summofArray(inputArray);
+enterArrayElements(inputArray);                          // print to see the entered array
+summofArray(inputArray);                                 //function declared to find sum of array
