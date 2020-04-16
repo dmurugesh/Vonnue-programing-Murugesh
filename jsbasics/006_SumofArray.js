@@ -10,7 +10,6 @@ const enterArrayElements = array => {
     console.log(inputArray);
 }
 
-
 const summofArray = array => {
     let total = 0;                                             
     for (i = 0; i < inputArray.length; i++) {
