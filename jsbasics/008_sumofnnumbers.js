@@ -1,5 +1,6 @@
+// Question 8 => Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
 let readline = require("readline-sync");
-let n = readline.question("Enter the No. of element: ");
+let number = readline.question("Enter the No. of element: ");
 
 const findSum = num => {
     let result = 0;
@@ -8,5 +9,5 @@ const findSum = num => {
     }
     return result;
 }
-findSum(n);
-console.log('The sum of N elements :' + findSum(n));
+findSum(number);
+console.log('The sum of N elements :' + findSum(number));
