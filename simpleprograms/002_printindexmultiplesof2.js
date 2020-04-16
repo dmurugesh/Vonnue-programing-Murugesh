@@ -1,3 +1,5 @@
+// Question 2 => Write a function to print all the elements whose index is a multiple of 2 ?
+
 let readline = require("readline-sync");
 const inputArray = [];
 
@@ -8,7 +10,6 @@ const enterArrayElements = array => {
     }
     console.log(array);
 }
-enterArrayElements(inputArray);
 
 const printElements = array => {
     for (let i = 0; i < array.length; i++) {
@@ -17,4 +18,5 @@ const printElements = array => {
         }
     }
 }
+enterArrayElements(inputArray);
 printElements(inputArray);

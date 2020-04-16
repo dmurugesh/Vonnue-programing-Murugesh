@@ -1,3 +1,5 @@
+// Question 3 => Write a function to replace all the elements of an array with 0 ?
+
 let readline = require("readline-sync");
 let inputArray = [];
 
@@ -8,14 +10,13 @@ const enterArrayElements = array => {
     }
     console.log(array);
 }
-enterArrayElements(inputArray);
 
-const squareArray = array => {
+const replaceArray = array => {
     for (let i = 0; i < array.length; i++) {
         array[i] *= 0;
     }
     console.log(array);
 }
-squareArray(inputArray);
-
+enterArrayElements(inputArray);
+replaceArray(inputArray);
 

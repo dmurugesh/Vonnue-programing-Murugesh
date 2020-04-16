@@ -1,3 +1,5 @@
+// Question 6 => Write a function to print all the elements whose value is a multiple of 3 and multiple of 5 ?
+
 let readline = require("readline-sync");
 let inputArray = [];
 
@@ -8,7 +10,6 @@ const enterArrayElements = array => {
     }
     console.log(array);
 }
-enterArrayElements(inputArray);
 
 const squareArray = array => {
     for (let i = 0; i < array.length; i++) {
@@ -16,4 +17,5 @@ const squareArray = array => {
     }
     console.log(array);
 }
+enterArrayElements(inputArray);
 squareArray(inputArray);

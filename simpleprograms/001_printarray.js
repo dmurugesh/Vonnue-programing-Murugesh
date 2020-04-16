@@ -1,3 +1,5 @@
+// Question 1 =>  Write a function to print all the elements of an array. ?
+
 let readline = require("readline-sync");
 const inputArray = [];
 
@@ -9,4 +11,3 @@ const enterArrayElements = array => {
     console.log(array);
 }
 enterArrayElements(inputArray);
-

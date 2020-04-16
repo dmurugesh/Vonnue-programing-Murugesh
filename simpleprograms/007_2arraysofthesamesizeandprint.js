@@ -1,3 +1,5 @@
+// Question 7 => Declare 2 arrays of the same size and print the values of both using one for loop ?
+
 let readline = require("readline-sync");
 const inputArray1 = [];
 const inputArray2 = [];
@@ -12,5 +14,3 @@ const enterArrayElements = array => {
     console.log(inputArray2);
 }
 enterArrayElements(inputArray1, inputArray2);
-
-

@@ -1,3 +1,5 @@
+// Question 4 => Write a function to find the sum of all elements of an array ?
+
 let readline = require("readline-sync");
 var inputArray = [];
 
@@ -8,13 +10,14 @@ const enterArrayElements = array => {
     }
     console.log(inputArray);
 }
-enterArrayElements(inputArray);                          // print to see the entered array
 
 const summofArray = array => {
-    let total = 0;                                              //function declared to find sum of array
+    let total = 0;                                             
     for (let i = 0; i < array.length; i++) {
         total = parseInt(total) + parseInt(array[i]);
     }
     console.log(' Sum of Array :' + total);
 }
-summofArray(inputArray);
+enterArrayElements(inputArray);                             // print to see the entered array
+summofArray(inputArray);                                   // function declared to find sum of array
+

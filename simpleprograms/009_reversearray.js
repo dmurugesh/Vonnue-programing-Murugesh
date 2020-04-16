@@ -1,3 +1,5 @@
+// Question 9 => Print the array in reverse order ?
+
 let readline = require("readline-sync");
 const inputArray = [];
 
@@ -8,10 +10,10 @@ const enterArrayElements = array => {
     }
     console.log(inputArray);
 }
-enterArrayElements(inputArray);
 
 const outputArray = array => {
     let outputArray = array.reverse();
     console.log("the reverse of array : [ " + outputArray + " ]");
 }
+enterArrayElements(inputArray);
 outputArray(inputArray);
