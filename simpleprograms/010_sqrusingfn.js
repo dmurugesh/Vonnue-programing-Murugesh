@@ -3,16 +3,16 @@ let inputArray = [];
 
 const enterArrayElements = array => {
     let size = readline.question("Enter the No. of element to store in Array: ");
-    for (i = 0; i < size; i++) {
-        inputArray[i] = readline.question("Enter the Element " + (i + 1) + " : ");
+    for (let i = 0; i < size; i++) {
+        array[i] = readline.question("Enter the Element " + (i + 1) + " : ");
     }
-    console.log(inputArray);
+    console.log(array);
 }
 enterArrayElements(inputArray);
 
-const squareArray = () => {
-    for (let i = 0; i < inputArray.length; i++) {
-        console.log(inputArray[i] ** 2);
+const squareArray = array => {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i] ** 2);
     }
 }
 squareArray(inputArray);

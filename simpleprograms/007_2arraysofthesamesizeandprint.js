@@ -4,7 +4,7 @@ const inputArray2 = [];
 
 const enterArrayElements = array => {
     let size = readline.question("Enter the No. of element to store in Array: ");
-    for (i = 0; i < size; i++) {
+    for (let i = 0; i < size; i++) {
         inputArray1[i] = readline.question("Enter the Element " + (i + 1) + " in the 1st Array : ");
         inputArray2[i] = readline.question("Enter the Element " + (i + 1) + " in 2nd Array : ");
     }
@@ -12,4 +12,5 @@ const enterArrayElements = array => {
     console.log(inputArray2);
 }
 enterArrayElements(inputArray1, inputArray2);
+
 

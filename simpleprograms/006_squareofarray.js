@@ -2,14 +2,18 @@ let readline = require("readline-sync");
 let inputArray = [];
 
 const enterArrayElements = array => {
-    let size = readline.question("Enter the size of Array : ");
-    for (i = 0; i < size; i++) {
-        inputArray[i] = readline.question("Enter the " + (i + 1) + "Elment: ");
+    let size = readline.question("Enter the No. of element to store in Array: ");
+    for (let i = 0; i < size; i++) {
+        array[i] = readline.question("Enter the Element " + (i + 1) + " : ");
     }
-    console.log("Enter Array :" + inputArray);
-    inputArray.forEach((value, index) => {
-        inputArray[index] *= inputArray[index];          // used to multiple each elment in array with itself
-    });
-    console.log(inputArray);
+    console.log(array);
 }
 enterArrayElements(inputArray);
+
+const squareArray = array => {
+    for (let i = 0; i < array.length; i++) {
+        array[i] *= array[i];
+    }
+    console.log(array);
+}
+squareArray(inputArray);
