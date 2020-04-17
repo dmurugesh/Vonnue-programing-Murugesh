@@ -1,7 +1,7 @@
 // Question 9 => Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
 
 let readline = require("readline-sync");
-let n = readline.question("Enter the No. of element: ");
+let number = readline.question("Enter the No. of element: ");
 
 const findSum = num => {
     let result = 0;
@@ -12,5 +12,5 @@ const findSum = num => {
     }
     return result;
 }
-findSum(n);
-console.log('The sum of N elements whose are multple of 3 & 5 :' + findSum(n))
+findSum(number);
+console.log('The sum of N elements whose are multple of 3 & 5 :' + findSum(number));
