@@ -10,11 +10,11 @@ const enterArrayElements = array => {
     console.log(array);
 }
 
-const squareArray = array => {
+const scalarArray = array => {
     let scalar = readline.question("Enter number to be multiplied with each elemnt :");
     for (let i = 0; i < array.length; i++) {
         console.log(array[i] * scalar);
     }
 }
 enterArrayElements(inputArray);
-squareArray(inputArray);            
+scalarArray(inputArray);            
