@@ -3,7 +3,7 @@
 const sumofSquare = num => {
     for (let i = 1; i <= num; i++) {
         for (let j = 1; j <= num; j++) {
-            result = ((i * i) + (j * j));
+            let result = ((i * i) + (j * j));
             if (result === num) {
                 console.log('the number can be writen as sum of squares of ' + i + ' & ' + j + ' = ' + result);
                 return result;
