@@ -11,4 +11,4 @@ theinputCharacter = str => {
         console.log("The entered string" + " '" + str + "' " + "is a special Character");
     }
 }
-theinputCharacter("Anystring");
+theinputCharacter("g");
