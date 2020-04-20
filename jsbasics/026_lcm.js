@@ -12,5 +12,5 @@ findLcm = (num1, num2) => {
     }
   }
 }
-result = findLcm(40, 29);
+let result = findLcm(40, 29);
 console.log('The LCM of both the numbers are : ' + result);
