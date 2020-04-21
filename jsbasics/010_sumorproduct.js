@@ -3,17 +3,17 @@
 
 const findSumorProduct = (option, num) => {
     if (option === 1) {
-        let result = 1;
+        let product = 1;
         for (let i = 1; i <= num; i++) {
-            result = result * i;
+            product = product * i;
         }
-        return result;
+        return product;
     } else {
-        let result = 0;
+        let sum = 0;
         for (let i = 1; i <= num; i++) {
-            result = result + i;
+            sum = sum + i;
         }
-        return result;
+        return sum;
     }
 }
 findSumorProduct(1, 5);
