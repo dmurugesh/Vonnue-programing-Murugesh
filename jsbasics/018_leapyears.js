@@ -4,7 +4,7 @@
 leapYear = num => {           
     let upto = parseInt(num) + 20;
     for (let i = num; i <= upto; i++) {
-        if (i % 4 === 0) {
+        if (((i % 4 == 0) && (i % 100 != 0)) || (i % 400 == 0)) {
             console.log("Leap year : " + i);
         }
     }
