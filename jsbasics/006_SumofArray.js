@@ -4,7 +4,7 @@ var inputArray = [];
 
 const enterArrayElements = array => {
     let size = readline.question("Enter the No. of element to store in Array: ");
-    for (i = 0; i < size; i++) {
+    for (let i = 0; i < size; i++) {
         inputArray[i] = readline.question("Enter the Element " + (i + 1) + " : ");
     }
     console.log(inputArray);
@@ -12,7 +12,7 @@ const enterArrayElements = array => {
 
 const summofArray = array => {
     let total = 0;                                             
-    for (i = 0; i < inputArray.length; i++) {
+    for (let i = 0; i < inputArray.length; i++) {
         total = parseInt(total) + parseInt(inputArray[i]);
     }
     console.log(' Sum of Array :' + total);
