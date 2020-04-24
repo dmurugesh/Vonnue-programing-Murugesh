@@ -9,7 +9,7 @@ showPrimes = limit => {
                 break;
             }
         }
-        if (isPrime) {
+        if (isPrime === true) {
             console.log(number);
         }
     }
