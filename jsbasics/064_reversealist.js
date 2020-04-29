@@ -5,5 +5,5 @@ reverseList = array => {
      console.log(output);
 }
 
-let list = ['0', '4', '89', '55'];
-reverseList(list);
+let input = ['0', '4', '89', '55'];
+reverseList(input);
