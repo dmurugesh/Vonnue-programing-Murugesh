@@ -1,7 +1,7 @@
 let readline = require("readline-sync");
 let num = readline.question("Enter the NUmber"); 
 
-const testPrime = num => {
+testPrime = num => {
   if (num === 1)  {    // if num = 1 it is not a prime 
     return false;  //break  false 
   } else if(num === 2) {
