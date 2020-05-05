@@ -3,7 +3,7 @@
 checkElement = (check) => {
     let list = ['Orange', 'Apple', 'Red', 'Yellow'];
     let a = list.indexOf(check);
-    if ( a === -1) {
+    if (a === -1) {
         console.log('not present');
     } else {
         console.log('present');
