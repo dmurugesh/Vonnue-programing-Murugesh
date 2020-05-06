@@ -8,4 +8,5 @@ enteredNumber = num => {
         console.log('Number is negative');
     }
 }
+
 enteredNumber(-1);
