@@ -9,4 +9,5 @@ palindrome = str => {
     console.log("the given word is not Palindrome: ", str);
   }
 }
+
 palindrome(str);
