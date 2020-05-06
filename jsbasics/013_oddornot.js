@@ -6,5 +6,6 @@ const oddNumber = num => {
     } else {
         console.log("Entered number is Odd Number");
     }
-}
+} 
+
 oddNumber(17);
