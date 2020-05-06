@@ -8,8 +8,8 @@
 let dec = parseInt(num, 2).toString(10); where (num, 2) is the radix(2) as input & .tostring(radix) enter the radix value to converted
 */
 
-binarytoDecimal = num => {
+binaryToDecimal = num => {
      let dec = parseInt(num, 2).toString(10);
      console.log(dec); 
 }
-binarytoDecimal(1001);
+binaryToDecimal(1001);
