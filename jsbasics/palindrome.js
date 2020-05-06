@@ -1,5 +1,5 @@
-let readline = require("readline-sync");
-let str = readline.question("enter word: ");    // use to enter user input word
+const readline = require("readline-sync");
+const str = readline.question("enter word: ");    // use to enter user input word
 
 palindrome = str => {
   str = str.toLowerCase().replace(/[^a-z]+/g, "");    // tolowercase - use to convert into lowerstring., replace() - return matches of a pattern replaced by a replacement
