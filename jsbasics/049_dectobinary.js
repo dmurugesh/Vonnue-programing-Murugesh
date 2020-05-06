@@ -9,8 +9,8 @@
  3. let dec = parseInt(num, 2).toString(10); where (num, 2) is the radix(2) as input & .tostring(radix) enter the radix value to converted
 */
 
-decimaltoBinary = num => {
+decimalToBinary = num => {
     let bin = parseInt(num, 10).toString(2);
     console.log(bin); 
 }
-decimaltoBinary(10);
+decimalToBinary(10);
