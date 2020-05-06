@@ -9,4 +9,5 @@ const multiplicationTable = () => {
     console.log('Multiplication table of ' + (i + 1));
   }
 }
+
 multiplicationTable();
