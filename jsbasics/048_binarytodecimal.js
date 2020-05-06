@@ -12,4 +12,5 @@ binaryToDecimal = num => {
      let dec = parseInt(num, 2).toString(10);
      console.log(dec); 
 }
+
 binaryToDecimal(1001);
