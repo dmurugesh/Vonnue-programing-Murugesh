@@ -35,7 +35,7 @@ removeSpace = (str1, str2) => {
 addLetter = (str1, str2) => {
     let result = (str1 + str2); 
     result = result.split('e').join('ez');
-    console.log('Add Letter after o : ' + result);
+    console.log('Add Letter after e : ' + result);
 }
 
 mixLetter = (str1, str2) => {
