@@ -9,5 +9,6 @@ const findSum = num => {
     }
     return result;
 }
+
 findSum(number);
 console.log('The sum of N elements :' + findSum(number));
