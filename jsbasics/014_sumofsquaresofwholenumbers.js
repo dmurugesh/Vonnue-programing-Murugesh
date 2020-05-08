@@ -1,6 +1,6 @@
 // Question 14 => Write program to check if number can be expressed as sum of squares of two whole numbers?
 
-const sumofSquare = num => {
+sumofSquare = num => {
     for (let i = 1; i <= num; i++) {
         for (let j = 1; j <= num; j++) {
             let result = ((i * i) + (j * j));
@@ -12,4 +12,5 @@ const sumofSquare = num => {
     }
     console.log("Number cannot be return as sum of squares");
 }
+
 sumofSquare(25);
