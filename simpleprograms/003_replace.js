@@ -17,6 +17,7 @@ const replaceArray = array => {
     }
     console.log(array);
 }
+
 enterArrayElements(inputArray);
 replaceArray(inputArray);
 
