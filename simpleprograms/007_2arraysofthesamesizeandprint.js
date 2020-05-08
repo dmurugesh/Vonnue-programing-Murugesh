@@ -13,4 +13,5 @@ const enterArrayElements = array => {
     console.log(inputArray1);
     console.log(inputArray2);
 }
+
 enterArrayElements(inputArray1, inputArray2);
