@@ -6,11 +6,12 @@ let number = readline.question("Enter the No. of element: ");
 const findSum = num => {
     let result = 0;
     for (let i = 1; i <= num; i++) {
-        if (i % 3 == 0 || i % 5 == 0) {
+        if (i % 3 === 0 || i % 5 === 0) {
             result = result + i;
         }
     }
     return result;
 }
+
 findSum(number);
 console.log('The sum of N elements whose are multple of 3 & 5 :' + findSum(number));
