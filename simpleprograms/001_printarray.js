@@ -10,4 +10,5 @@ const enterArrayElements = array => {
     }
     console.log(array);
 }
+
 enterArrayElements(inputArray);
