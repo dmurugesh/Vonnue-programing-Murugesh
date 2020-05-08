@@ -16,5 +16,6 @@ const squareArray = array => {
         console.log(array[i] ** 2);
     }
 }
+
 enterArrayElements(inputArray);
 squareArray(inputArray);
