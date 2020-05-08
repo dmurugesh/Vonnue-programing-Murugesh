@@ -13,9 +13,10 @@ const enterArrayElements = array => {
 const summofArray = array => {
     let total = 0;                                             
     for (let i = 0; i < inputArray.length; i++) {
-        total = parseInt(total) + parseInt(inputArray[i]);
+        total = total + parseInt(inputArray[i]);
     }
     console.log(' Sum of Array :' + total);
 }
+
 enterArrayElements(inputArray);                          // print to see the entered array
 summofArray(inputArray);                                 //function declared to find sum of array
