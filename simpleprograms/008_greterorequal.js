@@ -16,4 +16,5 @@ const enteredArrayEqual = array => {
     }
     console.log(array);
 }
+
 enteredArrayEqual(inputArray); 
