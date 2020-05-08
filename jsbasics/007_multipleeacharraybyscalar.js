@@ -16,5 +16,6 @@ const scalarArray = array => {
         console.log(array[i] * scalar);
     }
 }
+
 enterArrayElements(inputArray);
 scalarArray(inputArray);            
