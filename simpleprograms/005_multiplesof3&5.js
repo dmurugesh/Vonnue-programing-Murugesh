@@ -13,10 +13,11 @@ const enterArrayElements = array => {
 
 const printElements = array => {
     for (let i = 0; i < array.length; i++) {
-        if (array[i] % 3 == 0 && array[i] % 5 == 0 ) {
+        if (array[i] % 3 === 0 && array[i] % 5 === 0 ) {
             console.log("The value at index " + i + " is " + array[i]);
         }
     }
 }
+
 enterArrayElements(inputArray);
 printElements(inputArray);
