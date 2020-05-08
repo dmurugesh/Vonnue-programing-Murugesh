@@ -6,10 +6,12 @@ armstrongNumber = num => {
         reminder = qotient % 10;
         sum += (reminder ** 3);
         qotient = parseInt(qotient / 10);
-    } if (num === sum) {
+    } 
+    if (num === sum) {
         console.log("given no is amstrong number");
     } else {
         console.log("given no is not an amstrong number");
     }
 }
+
 armstrongNumber(153);
