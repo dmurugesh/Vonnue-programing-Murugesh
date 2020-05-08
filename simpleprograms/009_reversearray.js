@@ -15,5 +15,6 @@ const outputArray = array => {
     let outputArray = array.reverse();
     console.log("the reverse of array : [ " + outputArray + " ]");
 }
+
 enterArrayElements(inputArray);
 outputArray(inputArray);
