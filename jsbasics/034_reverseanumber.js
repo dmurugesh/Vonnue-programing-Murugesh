@@ -9,4 +9,5 @@ inputNumber = num => {
     }
     console.log('reversed number is : ' + temp);
 }
+
 inputNumber(1234);  
