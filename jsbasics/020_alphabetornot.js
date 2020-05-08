@@ -2,7 +2,7 @@
 // word.match(/[A-Z a-z]/) used to check captial//small letter alphabet
 // word.match(/[0-9]/) used to check the numbers in the string
 
-theinputCharacter = word => {
+theInputCharacter = word => {
     if (word.match(/[0-9]/)) {
         console.log("The character" + " '" + word + "' " + "is a Number");
     } else if (word.match(/[A-Z a-z]/)) {
@@ -11,5 +11,6 @@ theinputCharacter = word => {
         console.log("The character" + " '" + word + "' " + "is a special Character");
     }
 }
-theinputCharacter("b");
+
+theInputCharacter("b");
 
