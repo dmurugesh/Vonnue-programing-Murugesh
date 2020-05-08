@@ -5,7 +5,7 @@ inputNumber = num => {
     while (num > 0) {
         let reminder = num % 10;
         num = parseInt(num / 10);
-        temp = ((temp * 10) + reminder);
+        temp = (temp * 10) + reminder;
     }
     console.log('reversed number is : ' + temp);
 }
