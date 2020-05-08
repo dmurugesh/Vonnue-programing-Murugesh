@@ -12,11 +12,10 @@ const enterArrayElements = array => {
 }
 
 const printElements = array => {
-    for (let i = 0; i < array.length; i++) {
-        if (i % 2 == 0) {
+    for (let i = 0; i < array.length; i+2) {
             console.log("The value at index " + i + " is " + array[i]);
-        }
     }
 }
+
 enterArrayElements(inputArray);
 printElements(inputArray);
