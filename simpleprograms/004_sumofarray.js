@@ -18,6 +18,7 @@ const summofArray = array => {
     }
     console.log(' Sum of Array :' + total);
 }
+
 enterArrayElements(inputArray);                             // print to see the entered array
 summofArray(inputArray);                                   // function declared to find sum of array
 
