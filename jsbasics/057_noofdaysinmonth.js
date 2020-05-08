@@ -20,4 +20,4 @@ daysMonth(2);
 daysInMonth = (month, year) => {
     return new Date(year, month, 0).getDate();
 }
-console.log(daysInMonth(2020, 4));
+console.log(daysInMonth(4, 2020));
