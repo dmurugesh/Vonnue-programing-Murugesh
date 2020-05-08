@@ -2,9 +2,10 @@
 
 factor = num => {
     for (let i = 1; i <= num; i++) {
-        if ((num % i) === 0) {
+        if (num % i === 0) {
             console.log('Factor of the number ' + num + '  : ' + i);
         }
     }
 }
+
 factor(10);
