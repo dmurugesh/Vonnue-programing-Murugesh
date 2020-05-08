@@ -3,21 +3,21 @@
 
 const findSumorProduct = (option, num) => {
     if (option === 1) {
-        let product = 1;
+        let result = 0;
         for (let i = 1; i <= num; i++) {
-            product = product * i;
+            result = result + i;
         }
-        return product;
+        return ('The sum of N elements : ' + result);
     } else {
-        let sum = 0;
+        let result = 1;
         for (let i = 1; i <= num; i++) {
-            sum = sum + i;
+            result = result * i;
         }
-        return sum;
+        return ('The product of N elements : ' + result);
     }
 }
-findSumorProduct(1, 5);
-console.log('The sum of N elements :' + findSumorProduct(1, 5));
+let value = findSumorProduct(2, 5);
+console.log(value);
 
 
 
