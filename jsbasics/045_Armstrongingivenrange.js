@@ -6,7 +6,8 @@ armstrongNumber = num => {
         let reminder = qotient % 10;
         sum += (reminder ** 3);
         qotient = parseInt(qotient / 10);
-    } if (num === sum) {
+    }
+    if (num === sum) {
         console.log("given no is amstrong number " + num);
     }
 }
@@ -18,6 +19,6 @@ rangeNum = (num1, num2) => {
             armstrongNumber(i);
         }
     }
-    
+
 rangeNum(400, 100);
 
