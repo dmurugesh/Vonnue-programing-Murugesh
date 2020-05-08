@@ -12,15 +12,12 @@ armstrongNumber = num => {
 }
 
 rangeNum = (num1, num2) => {
-    if (num2 > num1) {
-        for (let i = num1; i <= num2; i++) {
-            armstrongNumber(i);
-        }
-    } else {
-        for (let i = num2; i <= num1; i++) {
+    let largest = num1 > num2 ? num1 : num2;
+    let smallest = num1 < num2 ? num1 : num2;
+        for (let i = smallest; i <= largest; i++) {
             armstrongNumber(i);
         }
     }
-}
+    
 rangeNum(400, 100);
 
