@@ -22,14 +22,11 @@ nineDivsor = num => {
 }
 
 rangeNum = (num1, num2) => {
-    if (num2 > num1) {
-        for (let j = num1; j <= num2; j++) {
-            nineDivsor(j);
-        }
-    } else {
-        for (let j = num2; j <= num1; j++) {
+    let largest = num1 > num2 ? num1 : num2;
+    let smallest = num1 < num2 ? num1 : num2;
+        for (let j = smallest; j <= largest; j++) {
             nineDivsor(j);
         }
     }
-}
+    
 rangeNum(1, 100);
