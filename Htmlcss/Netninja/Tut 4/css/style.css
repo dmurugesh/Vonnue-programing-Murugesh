@@ -1,0 +1,44 @@
+body {
+    font-size:  18px;
+    font-family: Helvetica, sans-serif;
+}
+
+h1, h2 {
+    color: tomato;
+    font-family: Arial, sans-serif;
+    background-color: slategray;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+ol {
+    /* display: inline-block; */
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: tomato; */
+    border: 4px tomato solid;
+    padding: 40px;
+}
+
+li {
+    list-style-type: square;
+}
+
+.main-text {
+    text-align: justify;
+    letter-spacing: 2px;
+    column-count: 4;
+    column-gap: 60px;
+}
+
+#author-name {
+     font-size: 25px;
+}
